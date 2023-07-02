@@ -6,6 +6,7 @@ favicon: /-/boywithuke31.github.io/myprofile31/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/lobster-typography
+-- fastn.dependency: fastn-community.github.io/roboto-typography
 
 -- fastn.auto-import: boywithuke31.github.io/myprofile31/FASTN/ds
 -- fastn.auto-import: boywithuke31.github.io/myprofile31/assets
