@@ -122,7 +122,7 @@ role: $inherited.types.copy-regular
 
 
 -- ftd.background-image bg-image:
-src: bg.jpg
+src: assets.bg.jpg
 repeat: no-repeat
 position: center
 size: cover
