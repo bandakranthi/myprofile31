@@ -1,1 +1,128 @@
--- ftd.text: hello
+-- import: fastn-community.github.io/lobster-typography
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+align-content: center
+background.image: $bg-image
+types: $lobster-typography.types
+
+-- ftd.column:
+width.fixed.px: 832
+height.fixed.px: 740
+align-content: center
+
+
+-- player: K R A N T H I
+dp: $assets.files.me.jpg
+
+I am full stack dev.
+
+-- ftd.column:
+spacing.fixed.px: 10
+margin-top.px: 60
+width: fill-container
+
+-- button: LinkedIn
+link: https://www.linkedin.com/in/kranthi-kumar-529082244
+
+-- button: Instagram
+link: https://instagram.com/bandakranthi31?igshid=MzRlODBiNWFlZA==
+
+-- button: Facebook
+link : https://www.facebook.com/kranthi.banda.9?mibextid=ZbWKwL
+-- button: Twitter
+link : https://twitter.com/banda_kranthi?t=htORSgTiUqyt79FDBcJrLQ&s=08
+
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+
+
+
+
+
+
+-- component player:
+caption title:
+optional ftd.image-src dp:
+optional body body:
+ftd.color border-color: #7C42E7
+
+-- ftd.column:
+width.fixed.px: 341 
+height.fixed.px: 241
+padding-bottom.px: 10
+align-content: center
+
+-- ftd.image: $player.dp
+width.fixed.px: 118 
+height.fixed.px: 118
+border-radius.px: 60
+margin-bottom.px: 20
+border-color: black
+border-width.px: 5
+
+-- ftd.text: $player.title
+role: $inherited.types.heading-large
+color: #F41D1D
+
+-- ftd.text: $player.body
+role: $inherited.types.copy-regular
+color: #F41D1D
+
+-- end: ftd.column
+
+-- end: player
+
+
+
+
+
+
+
+-- component button:
+caption title:
+optional string link:
+ftd.color text-color: $inherited.colors.text-strong
+ftd.color border-color: #F41D1D
+
+-- ftd.row:
+align-content: center
+width: fill-container
+border-radius.px: 40
+height.fixed.px: 82
+border-width.px: 2
+background.solid: black
+border-color: $button.border-color
+
+
+-- ftd.text: $button.title
+link: $button.link
+padding.px: 10
+style: bold
+text-align: center
+color: #F41D1D
+role: $inherited.types.copy-regular
+
+
+
+-- end: ftd.row
+
+-- end: button
+
+
+
+\;; record variable : https://tse1.mm.bing.net/th?id=OIP.aurq9pr24mr9IfILX8W4ogHaDt&pid=Api&P=0&h=180
+
+
+-- ftd.background-image bg-image:
+src: bg.jpg
+repeat: no-repeat
+position: center
+size: cover
