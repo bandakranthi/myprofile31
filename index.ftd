@@ -14,7 +14,7 @@ align-content: center
 
 
 -- player: K R A N T H I
-dp: $assets.files.me.jpg
+dp: $assets.files.assets.me.jpg
 
 I am full stack dev.
 
