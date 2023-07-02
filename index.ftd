@@ -35,7 +35,6 @@ link : https://www.facebook.com/kranthi.banda.9?mibextid=ZbWKwL
 link : https://twitter.com/banda_kranthi?t=htORSgTiUqyt79FDBcJrLQ&s=08
 
 
-
 -- end: ftd.column
 
 -- end: ftd.column
@@ -109,8 +108,6 @@ style: bold
 text-align: center
 color: #F41D1D
 role: $inherited.types.copy-regular
-
-
 
 -- end: ftd.row
 
